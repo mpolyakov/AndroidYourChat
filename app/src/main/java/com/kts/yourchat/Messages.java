@@ -2,14 +2,14 @@ package com.kts.yourchat;
 
 import java.util.Date;
 
-public class Message {
+public class Messages {
 
     public String username;
     public String textMessage;
     private long messageTime;
 
-    public Message(){}
-    public Message(String username, String textMessage){
+    public Messages(){}
+    public Messages(String username, String textMessage){
         this.username = username;
         this.textMessage = textMessage;
         this.messageTime = new Date().getTime();
